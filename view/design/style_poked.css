@@ -1,102 +1,102 @@
 body {
-    margin : 0;
-  }
-  
-  .rondB {
-    height: 20vh;
-    width: 20vh;
-  
-    
-    flex: 1;
-  }
-  
-  .rondB div {
-    height: 80%;
-    width: 80%;
-    border: 6px solid;
-    border-color: lightgray;
-    background: radial-gradient( #0004FF 0%, #06006B 60%);
-    margin: 10%;
-    border-radius: 50%;
-  }
-  
-  header {
-    width: 100vw;
-    height: 20vh;
-    top: 0;
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-  
-  }
-  
-  .menu {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .barre {
-    padding-top: 2vh;
-    padding-left: 5vw;
-    width: 13.8vw;
-    height: 4vw;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .rondR {
-    border-color: black;
-    border: 1px solid;
-    border-radius: 50%;
-    background: radial-gradient( #FF0202 0%, #7D0303 60%);
-    height: 100%;
-    width: 28%;
-    
-  }
-  .rondJ {
-    border-color: black;
-    border-radius: 50%;
-    border: 1px solid;
-    background: radial-gradient( #F6FF03 0%, #948002 60%);
-    height: 100%;
-    width: 28%;
-    margin-left: 5%;
-  
-  }
-  
-  .rondV {
-    border-color: black;
-    border-radius: 50%;
-    border: 1px solid;
-    background: radial-gradient( #0BBF06 0%, #013E0F 60%);
-    height: 100%;
-    width: 28%;
-    margin-left: 5%;
-  }
-  
-  
-  .sep{
-    width: 5vw;
-    height: 15vh;
-    margin-top: 10vh;
-    padding-left:  20vw;
-    display: flex;
-    border-top: 20vh solid #ff0000;
-    border-right: 10vw solid #750000;
-  
-  }
-  
-  
-  
-  .bouton {
-    width: 43vw;
-    height: 50%;
-    margin-top: 10vh;
-    display: flex;
-    background-color: #750000;
+  margin : 0;
+}
 
-    align-items: center;
-  }
+.rondB {
+  height: 20vh;
+  width: 20vw;
+
+  
+  flex: 1;
+}
+
+.rondB div {
+  height: 80%;
+  width: 80%;
+  border: 6px solid;
+  border-color: lightgray;
+  background: radial-gradient( #0004FF 0%, #06006B 60%);
+  margin: 10%;
+  border-radius: 50%;
+}
+
+header {
+  width: 100vw;
+  height: 20vh;
+  top: 0;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.barre {
+  padding-top: 2vh;
+  padding-left: 5vw;
+  width: 14vw;
+  height: 4vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.rondR {
+  border-color: black;
+  border: 1px solid;
+  border-radius: 50%;
+  background: radial-gradient( #FF0202 0%, #7D0303 60%);
+  height: 100%;
+  width: 28%;
+  
+}
+.rondJ {
+  border-color: black;
+  border-radius: 50%;
+  border: 1px solid;
+  background: radial-gradient( #F6FF03 0%, #948002 60%);
+  height: 100%;
+  width: 28%;
+  margin-left: 5%;
+
+}
+
+.rondV {
+  border-color: black;
+  border-radius: 50%;
+  border: 1px solid;
+  background: radial-gradient( #0BBF06 0%, #013E0F 60%);
+  height: 100%;
+  width: 28%;
+  margin-left: 5%;
+}
+
+
+.sep{
+  width: 5vw;
+  height: 15vh;
+  margin-top: 10vh;
+  display: flex;
+  border-top: 20vh solid #ff0000;
+  border-right: 10vw solid #750000;
+
+}
+
+
+
+.bouton {
+  width: 46vw;
+  height: 50%;
+  margin-top: 10vh;
+  display: flex;
+  background-color: #750000;
+
+  align-items: center;
+}
+
   
   .center {
     

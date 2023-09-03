@@ -16,7 +16,7 @@ if (!isset($_SESSION)) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../view/design/style_poked.css">
-    <link rel="icon" href="/view/images/moonFeederIcon.ico" >    
+    <link rel="icon" href="../images/pokeball.ico" >    
     <title>Isimon</title>
 </head>
 
