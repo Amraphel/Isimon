@@ -19,5 +19,5 @@ CREATE TABLE capture(
     pseudoUser varchar(80),
     primary key(idPoke, pseudoUser),
     foreign key(idPoke) references pokemon(id),
-    foreign key (pseudoUser) references user(login)
+    foreign key(pseudoUser) references user(login)
 );

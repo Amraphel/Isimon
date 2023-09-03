@@ -37,7 +37,9 @@ function pokeCapt($login,$idPoke){
                 'idPoke' => $idPoke,
                 'login' => $login
             ));
-        }
+
+        $req = $dbh->prepare("UPDATE user SET nbCapture = nbCapture + 1 WHERE login='$login'");
+            $req->execute();}
 
     }
      ?>
