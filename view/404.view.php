@@ -13,7 +13,7 @@ if (!isset($_SESSION)) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../view/design/style_poke.css">
+    <link rel="stylesheet" href="../view/design/style_pokemon.css">
     <link rel="icon" href="../images/pokeball.ico" >     
     <title>Isimon</title>
 </head>
