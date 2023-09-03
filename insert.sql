@@ -314,27 +314,79 @@ Gardien du BDA, il maîtrise l''ensemble des arts. Il puise son énergie dans la
 INSERT INTO pokemon VALUES('X23x8ZLb3uA69E7XrtF8KRaC4WxjG7q6L77HmWNv3nruK4r22vm9xxAx9TqUigGdn9SCn869wj2eKjNE5g427L4PE35fVrQ482LD5Xr5Suc9YRXg22M982iLD5mUq7jtfeN','Deoxistan','Deoxistan.png','Psy','L''Isimon ADN Ludique
 Avec sa structure corporelle adaptative, cet Isimon est capable d''alterner différents domaines. Sa Forme Normale est pratique pour jouer aux jeux de société, sa Forme Attaque est redoutable au Trollball, sa Forme Vitesse peint plus vite que tout le monde des figurines de Warhammer, et sa forme Défense est confortable pour de longues sessions de JDR.
 ',104 );
-INSERT INTO pokemon VALUES('HTeB5j35ckZyCEfFJVGpi475w9577jis5F44UXuv6C83k43uh6BL638yHaXi9yBddD5v8NVyp4d86a8Sex55Tz5c89PAu4A6QzuEPyjPp99XZ8CXf5PWzE23nhjDV63WkHN','Cuiurem','Cuiurem.png','Glace','L’isimon Parkour tout risque
+INSERT INTO pokemon VALUES('HTeB5j35ckZyCEfFJVGpi475w9577jis5F44UXuv6C83k43uh6BL638yHaXi9yBddD5v8NVyp4d86a8Sex55Tz5c89PAu4A6QzuEPyjPp99XZ8CXf5PWzE23nhjDV63WkHN','Cuiurem','Cuiurem.png','Glace','L''isimon Parkour tout risque
 Son corps produit une énergie à très basse température. Il est donc habitué à parcourir toute sorte de chemin périlleux quelque soit le temps même dans les conditions les plus extrêmes.
 ',105 );
-INSERT INTO pokemon VALUES('9659CXqPD8Q5A576c8BdXr5wA4yfpLKy4H3e4f46kiKsr7635TizxWU2ua6CR4Kcu8gACt47rnPGL2fy5vNbW666uWC4NDEms5RLCKb38sJHcJt2fv2Ay8w85t93xhHSRE7','3Diancie','3Diancie.png','Roche','L’isimon Joyau Imprimante
-Diancie possède le pouvoir miraculeux de créer des diamants à partir du carbone contenu dans l''air. Ces diamants servent à fabriquer toutes sortes de pièces robustes grâce au technique d’imprimerie que le club possède.
+INSERT INTO pokemon VALUES('9659CXqPD8Q5A576c8BdXr5wA4yfpLKy4H3e4f46kiKsr7635TizxWU2ua6CR4Kcu8gACt47rnPGL2fy5vNbW666uWC4NDEms5RLCKb38sJHcJt2fv2Ay8w85t93xhHSRE7','3Diancie','3Diancie.png','Roche','L''isimon Joyau Imprimante
+Diancie possède le pouvoir miraculeux de créer des diamants à partir du carbone contenu dans l''air. Ces diamants servent à fabriquer toutes sortes de pièces robustes grâce au technique d''imprimerie que le club possède.
 ',106 );
-INSERT INTO pokemon VALUES('FntZLcrwSCT8kq6apUr5n7H4676Ci6FLa462eZB696LPg94S9G2K5NHAkpq58j8M8djbV8fxi5uPdfR3n2Vvn2kt6KV3AAL8s9rsTFt5VJQp8vNJ8G4Zqx3c742Mp27H6Wi','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('R9ijktLY8B44t3BG9c4v8CU2398Rdk9s5Ct28q7uGZK6sGkZQVAjh9Q6zs2EDUYEzQ62q7m57wG8j97yg5tyHNDd4vu3CChKv8bBQH67v35iDDr8qaFA2YcHSv525k2tS4s','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('X8aiEt32j6au45v74Ska6iUHPK3282qLi5E4aZ2jfKzJkm2xm5V56q3h22yMm7c2KBL37kEC64K6BQS55BntYYL9bm4HRFyadF2YCBaZ9vHs3M85f4k4H9Lw6rBRE8pfLvs','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('NN6N2t3sX64sPGJsDdsFgvma33ggPGGGwKVr7PTc79iD2z32YL82d779x63p6w2MTuJm7a9Rpt5m9x5pa9jC6qVJZWz5kZBNd69D54DyJz3brs22M5x2YvNC3rr4RP65F9C','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('88T7337AeUuy5E6E3Pu3igbFc7H7EUaV8gi3C8L42S3e92FQFn4i53tT866Kfsqgwx3Hc9S4cQAyNrXVi2Re62ZhK35eqd6ELTjzetMv54fn84SZh89zCwZGV7zJh3VpXA3','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('4TU2x83T5iDi696x66e25uSk82bSbWFkDLzn4ggYZZz9e385PF73NTjhU65zSG6Yt8NnU8faVsp7c3b8W7mrwv267C64rQbdBL56VXNEK3a7gxhKw7QgQDV78i2K8cUNxJe','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('uDUrJLF66a6QqxGkkAZBNwdmyF58z9Zvj4Kg4498Nh5fcUuv49W92MXE27YwpJy7BSam5jGGq846368Z4qm5zGgjSQeE38t2TU5vj6s3UX7qVa7x27VnaVDE22gGB3U3u67','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('r53kWExAvA9n47idF64B5y5Z2XbM4iNgX52XNZY8627G5tWVwc769vm67pFx36m3DpwKatGavs5V5W2AgxfB5469ZtYVkYAbNtg2Lag4W46hdmZcfd6Kg8KH22zZS45SC9R','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('code','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('code','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('code','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('code','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('code','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('code','nom','.png','type','desc',num );
-INSERT INTO pokemon VALUES('code','nom','.png','type','desc',num );
+INSERT INTO pokemon VALUES('FntZLcrwSCT8kq6apUr5n7H4676Ci6FLa462eZB696LPg94S9G2K5NHAkpq58j8M8djbV8fxi5uPdfR3n2Vvn2kt6KV3AAL8s9rsTFt5VJQp8vNJ8G4Zqx3c742Mp27H6Wi','Martingearna','Martingearna.png','Acier','L''isimon Lapin Robotique
+Cette Isimon métallique fait d''engrenage lui permet de ne faire qu''un et de contrôler pleinement tous les robot qu''il fabrique lui même
+',107 );
+INSERT INTO pokemon VALUES('R9ijktLY8B44t3BG9c4v8CU2398Rdk9s5Ct28q7uGZK6sGkZQVAjh9Q6zs2EDUYEzQ62q7m57wG8j97yg5tyHNDd4vu3CChKv8bBQH67v35iDDr8qaFA2YcHSv525k2tS4s','Zawarude!','Zawarude!.png','Ténèbres','L''Isimon Vilain Dio
+Ce protecteur de la forêt utilise ses lianes pour aider les forêts à pousser. Ses pouvoirs viendraient de sa consommation de thé glacé. Les chercheurs n''ont pas trouvé jusque-là d''autre explication à sa nutrition centrée autour du thé glacé.
+',108 );
+INSERT INTO pokemon VALUES('X8aiEt32j6au45v74Ska6iUHPK3282qLi5E4aZ2jfKzJkm2xm5V56q3h22yMm7c2KBL37kEC64K6BQS55BntYYL9bm4HRFyadF2YCBaZ9vHs3M85f4k4H9Lw6rBRE8pfLvs','Rayqhouza','Rayqhouza.png','Dragon','L''Isimon Cieux du Game
+Afin de vivre reculé pour jouer seul aux jeux, il passe son temps dans l''atmosphère. On raconte qu''il a déjà passé des centaines de millions d''années seul là-haut à jouer, sans jamais prendre de douches.
+',109 );
+INSERT INTO pokemon VALUES('NN6N2t3sX64sPGJsDdsFgvma33ggPGGGwKVr7PTc79iD2z32YL82d779x63p6w2MTuJm7a9Rpt5m9x5pa9jC6qVJZWz5kZBNd69D54DyJz3brs22M5x2YvNC3rr4RP65F9C','Zamalikta','Zamalikta.png','Acier','L''isimon Loup protecteur
+Il s'est équipé d'une protection parfaite pouvant aisément contrer toutes les attaques DDoS visant la sécurité de l''ISIMA. La meilleure défense étant l''attaque, il peut contre attaquer ceux qui le hack.
+',110 );
+INSERT INTO pokemon VALUES('88T7337AeUuy5E6E3Pu3igbFc7H7EUaV8gi3C8L42S3e92FQFn4i53tT866Kfsqgwx3Hc9S4cQAyNrXVi2Re62ZhK35eqd6ELTjzetMv54fn84SZh89zCwZGV7zJh3VpXA3','Ethernaflo','Ethernaflo.png','Poison','L''Isimon Giga Cuvée
+Il devient actif en absorbant l''énergie qui émerge des bières de IsiMalt grâce au noyau situé sur sa poitrine.
+',111 );
+INSERT INTO pokemon VALUES('4TU2x83T5iDi696x66e25uSk82bSbWFkDLzn4ggYZZz9e385PF73NTjhU65zSG6Yt8NnU8faVsp7c3b8W7mrwv267C64rQbdBL56VXNEK3a7gxhKw7QgQDV78i2K8cUNxJe','Nuggetta','Nuggetta.png','Combat','L''Isimon Danseur des Parkours
+Il fait du parkour dans une telle grâce et avec des mouvements incroyables, que l''on a l''impression que le terrain devient une piste de danse juste pour lui.
+',112 );
+INSERT INTO pokemon VALUES('uDUrJLF66a6QqxGkkAZBNwdmyF58z9Zvj4Kg4498Nh5fcUuv49W92MXE27YwpJy7BSam5jGGq846368Z4qm5zGgjSQeE38t2TU5vj6s3UX7qVa7x27VnaVDE22gGB3U3u67','Melloelisa','Melloelisa.png','Normal','L''Isimon Mélodie Présidentielle
+En tant que PréZZidente, sa voix lui permet de chanter des mélodies lors des réunions qui attirent l''attention du reste du BDE et qui permet de mettre tout le monde d''accord lorsqu''il y a des conflits.
+',113 );
+INSERT INTO pokemon VALUES('r53kWExAvA9n47idF64B5y5Z2XbM4iNgX52XNZY8627G5tWVwc769vm67pFx36m3DpwKatGavs5V5W2AgxfB5469ZtYVkYAbNtg2Lag4W46hdmZcfd6Kg8KH22zZS45SC9R','Plumeline forme IsiPomPom','Plumeline_forme_IsiPomPom.png','Fée','L''Isimon Cheerleader
+Sous cette forme exclusive à l''ISIMA, Plumeline encourage les étudiants à se surpasser grâce à de superbes chorégraphies. Il lui arrive aussi de réaliser des danses à des événements spéciaux, comme le gala.
+',114 );
+INSERT INTO pokemon VALUES('V3B977kYs8P2AR4q5M3rv2qd87Hw8yqZTeQ836AP3fFMeX5AS7zV49E6B3FmnCHxAe2sHNGq8qK446RMRpgq49ibi22yAi98qQgn9Pbc5z4Sb','Rattata d''Isima','Rattata_dIsima.png','Normal','L''Isima Rongeur informatique
+Les Rattata vivant dans l''ISIMA ont évolué au fil du temps pour devenir différentes de leurs congénères de Kanto. Restant en permanence dans la pénombre, leur peau est devenue blanche, et leurs yeux sont entièrement noirs pour qu''on ne puisse pas les voir quand ils rongent les câbles Ethernet et mettent Ada kapout.
+',115 );
+INSERT INTO pokemon VALUES('ps33HfNVk78h2hN7852N4QkJx2rVg52Kzibxk68DDQ82qWaTwwnYdvGMH97v3fq5u779DWzAW49DB37DFVLg38ypWfi278sSWXUqWV34AM7bszwA2XhBx9X9xfiJc9322HX3','Pik''inshape','Pikinshape.png','Combat','L''Isimon Souris du Catch
+His name is PIKACHU !!!! Bien que n''étant pas de Type Combat de base, ce Pikachu a changé de type par la force de ces muscles, de ses abdos ! Vive le sport, vive l''effort !
+',116 );
+INSERT INTO pokemon VALUES('H7RqJDc2qi4y3BBzXy874d7gL44d9vJh2GkWT4x72fshG6nzs9bjXUY7S84Q4U58DbXj3sr8rz5TF3WD75S35DFE8r5hNJffXY78RG2KR3wHhzHxc3i4EcjeZ9zbU2Um7B44','ZZygarde','ZZygarde.png','Roche','L''IZZimon
+Un Zygarde c''est bien, mais à Isi3D, grâce à la duplication, il y a ZZygarde. Et c''est encore mieux.
+',117 );
+INSERT INTO pokemon VALUES('qDYQw75eCquE9d47b3p7Z5AXwaHUdr3ffC42m9geRCye83367A5PtkVJ3bKM29vTxcu469Cu7P8LkSgYQ235sJ2L8zCtx2K6C93xeXJKG9S9m','NaZZastronelle','NaZZastronelle.png','Spectre','L''Isimon Mandat des étoiles
+Cet ancien Isimon abritait il fut un temps les réunions du BDE. Il est tellement grand qu''on pouvait même faire des soirées-off dedans. Il a été baptisé en l''honneur de ses occupants : NaZZa.
+',118 );
+INSERT INTO pokemon VALUES('6WF96fsB2C2v29z3raSy4gqUc49HjEa4WiVwkR7E73C73UU8dqSXnCg58D43C26iJQGGYmy5xp9Suv3tX64N6fzwR44B2936XwQM2ud7hG3623y7NLuZKh8DBJsBiJxneGza','Pingolinux','Pingolinux.png','Acier','L''Isimon Empereur du CPU
+Maître des mers, il est capable de nager n''importe où… non vraiment n''importe où. L''océan comme un seau d''eau. D''ailleurs, bien des gens essaient de voir à quel point il peut nager dans des situations ridicules.
+',119 );
+INSERT INTO pokemon VALUES('fzm8y8BGD5c42QxXe99XWhr7Sczqx29YES7666fGX4wEYjB79VGMUJE36mj5xp5Z9pp6Eh7pu67c9YtCDfCSBRQN88V32jkUb99j52pitHbA2d592n366Wc8Ja5HUJsNyuAv','Fish & Nugget','Fish_and_Nugget.png','Glace','L''Isimon Assaisonné
+On voit souvent les Isimon gambader, ou dans des combats d''Isimon, mais vous n''avez jamais pensé à les manger ? Parce qu''à Isibouffe oui, et ils sont su-ccu-lents. Avec une petite sauce au miel de Dardargnan là, perfecto.
+',120 );
+INSERT INTO pokemon VALUES('SK5j36pbK9kh97xvDA5cfPkfrPeW4MZ589JfzKsBmqfB5N97J24KYD76xxGuZ4kh58wfrhRaWZ2uQ8MjsF79b8XQTyDg3RR6z28ixP8XtRM6XS44mm9Mj2U6748h3x4C6QE8','Les Bestioles Des Égouts','Les_Bestioles_Des_Égouts.png','Poison','L''Isimon Coalition
+Ce groupe d''Isimons surnommé “Bestioles des Égouts vivent comme leur nom l''indique, dans les égouts. C''est là qu''ils luttent contre le BDE, ces impies qui ont volé leur acronyme. Ils sont toujours prêts à partir en before, même après un after.
+',121 );
+INSERT INTO pokemon VALUES('GfzHxMH67b34y2RF5z9XWGwaegECr3sC3A47DpeMWfpXp533d3AKQTaAh4pWZ23ju927S2rLQCYPSk8quiX3WKd3567Jd8zr62MMF73x23yH23E44F4iueKuD4vQbs74fgc5','Les hommes du Taupillier','Les_hommes_du_Taupillier.png','Ténèbres','L''Isimon Ayayayaïïïïïï
+Ils sont 3, ils sont redoutables, ils sont iconiques, les hommes du Taupillier sont un Taupiqueur, un Taupiqueur d''Alola, et un Taupikeau, qui ont décidé de sortir du sol pour se montrer sous leur vraie forme. Ensemble, ils protègent le mandat IZZIWEEB, de par leur chariiiiiiiisme.
+',122 );
+INSERT INTO pokemon VALUES('nC93B8Gmx3vX79WXMBs4242SNz2C5xj2rDFX9M72rGsg75ucwU2jN7KkV4s7G8u5npgd6RS6628jC8TX79dZM3JGcVQ7Gd6Md2KYc7qvccJaPNfDEW7Z2ens2p84yt2q6ejY','L.V.D.I.C.','L.V.D.I.C.png','Psy','L''Isimon Contrôle
+Ce groupe de Zarbis, toujours positionné dans cet ordre, se sont implantés dans le Lvdic, et refusent d''en partir. On raconte qu''ils utiliseraient leurs pouvoirs psychiques pour influencer les décisions de chaque mandat.
+',123 );
+INSERT INTO pokemon VALUES('555PtZ7kxa3NvrYTJ6YFh427Y9N4689tg5NTawaewy8XWxNAJ7wQ79P6R9K36VCc5dtfnL2AvbLWES5tq924f5Q37p2b7NQG8ZB3u6h9P4x3Sm74JUGmKuzcwPgczNtiM25c','Motisma Forme Arcade','Motisma_Forme_Arcade.png','Electrik','L''Isimon Borne
+Ce Motisma s''est logé dans la borne d''arcade de Pixel, et depuis il n''en bouge plus. Ainsi, tous les ZZ peuvent venir s''amuser à une borne toujours opérationnelle. La corne cependant ne rend pas son transport des plus aisés.
+',124 );
+INSERT INTO pokemon VALUES('LQLiJ4ND67TxQpgCze3x4BHTBT4hWdV6ti973w25Q6hd9ruNfg37fmGV2GdpYt6R2z3XvnD4nkY9R4P9QU8K5gXqz9N7jpFq25e6954866rTS','Mandarboliva','Mandarboliva.png','Plante','L''Isimon Olive Mandat
+Vous vous êtes déjà demandés comment un mandat PotaZZer se renouvelle ? Eh bien comme ça. Les membres PotaZZer poussent sur les branches de Mandarboliva, avant de partir faire leurs activités quand ils sont mûrs.
+',125 );
+INSERT INTO pokemon VALUES('n6dLdZb779JD3g4jfLXG8L3PP9S5uC4SaBUYFR24az3nfa8h493ex4HE3cYaNn254d3Zb7sz774H2kD7J9AmPgCudFcqH88wQs93w8yHxN8n7G5p23Rk5VNeCYgZS4r3qTQt','Mégaka-Rayqhouza tout shaïné','Mégaka-Rayqhouza_tout_shaïné.png','Dragon','L''Isimon GamerZZ
+Souvent accompagné de Primo-Kryogre et de Primo-Graoudonne, Mégaka-Rayqhouza tout shaïné est indéniablement un des Isimons les plus puissants, grâce à son pouvoir dévastateur, son noir trop stylé, et sa capacité à méga-évoluer sans méga-gemme ce qui lui permet d''équiper un objet autre comme le Mouchoir Choix ce qui en terme stratégique lui a valu d''être banni du tiers…
+',126 );
+INSERT INTO pokemon VALUES('45wLBq8pfMjwM7U8ruRJbviB442DC9fr8W746fnU3Jk7s6aL537YK5reiMpw2Rr2M5GyMPb49GY6spcdC4RjW4694q5tF7Mi3Jc6GPXr7eAheszDZUy6fmTv8742yyUDpTs23g36mMJHz97DK2V33UeRUY9cG59U2M5g5Cu','Scomister et Scomiss','Scomister_et_Scomiss.png','Feu','L''isimon Miss and Mister
+Sa tête Miss convertit la substance piquante produite par son corps de ZZ0 en énergie de type Feu et crache des flammes brûlantes pour montrer qui est vraiment la Miss Web.
+Sa tête Mister est agressive à cause des activités épicées du WEB qui stimulent son cerveau.
+',127 );
+INSERT INTO pokemon VALUES('L5Z86wAHwp36c9w4NaMRTcpZm59n4PLq4CKYxj7JkX2aY83jpqTip36f45HB53rf9vUv64V52uY4532CT4rxkSXvAm5bQ82KyZaLcK2zU29WsL5m3Gen86kGEhDR9a3PC5pS','Missing i','Missing_i.png','Mousse','L''Isimon ????
+Il a disparu depuis des années. Nul ne sait ce qu''il est devenu. Certains racontent qu''il se cache dans les travaux du couloir des clubs.
+',128 );
 
 
 
