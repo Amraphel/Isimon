@@ -155,100 +155,58 @@ header {
     padding: 0 5% 2% 5%;
     background-color: aliceblue;
   }
-  
-  
+
+
   img {
     padding-top: 2%;
-    height: 60%;
+    max-height: 60%;
+    max-width: 70vw;
     animation: myAnim 1s ease 0s 1 normal forwards;
   }
-  
-  
-  
-  
+
+
+
+
   p {
     width: 70%;
+    height: 30%;
+    font-size: 1.2vh;
   }
-  
+
   @keyframes myAnim {
-  0% {
-    opacity: 0;
-    transform: rotate(-540deg) scale(0);
-  }
-  
-  100% {
-    opacity: 1;
-    transform: rotate(0) scale(1);
-  }
-  }
-  
+	0% {
+		opacity: 0;
+		transform: rotate(-540deg) scale(0);
+	}
 
-  
-  .myButton {
-    margin-left: 10%;
-      box-shadow:inset 0px 1px 0px 0px #54a3f7;
-      background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-      background-color:#007dc1;
-      border-radius:3px;
-      border:1px solid #124d77;
-      display:inline-block;
-      cursor:pointer;
-      color:#ffffff;
-      font-family:Arial;
-      font-size:13px;
-      padding:6px 24px;
-      text-decoration:none;
-      text-shadow:0px 1px 0px #154682;
-  }
-  .myButton:hover {
-      background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
-      background-color:#0061a7;
-  }
-  .myButton:active {
-      position:relative;
-      top:1px;
-  }
+	100% {
+		opacity: 1;
+		transform: rotate(0) scale(1);
+	}
+}
 
 
-
-  .mainMenu {
-    min-width: 25vw;
-    min-height: 5vh;
-    margin-top: 10vh;
-    text-align: center  ;
-	box-shadow:inset 0px 1px 3px 0px #91b8b3;
-	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
-	background-color:#768d87;
-	border-radius:5px;
-	border:1px solid #566963;
+.myButton {
+  margin-left: 10%;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:11px 23px;
+	font-size:13px;
+	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #2b665e;
+	text-shadow:0px 1px 0px #154682;
 }
-.mainMenu:hover {
-	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
-	background-color:#6c7c7c;
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
 }
-.mainMenu:active {
+.myButton:active {
 	position:relative;
 	top:1px;
-}
-
-  
-.user{
-  display: flex;
-  flex-direction: row;
-  border: 1px solid;
-}
-
-.user h3{
-  margin-left:0.5vw ;
-  width: 20vw;
-  height: 100%;
 }

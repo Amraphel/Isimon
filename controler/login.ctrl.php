@@ -22,7 +22,7 @@ require_once('../model/utilisateur.class.php');
 //vérification lors de l'autentification
     if(isset($_POST['login'])){
         $user=$_POST['login'];
-        if($utilisateur->checkLogin($user)){
+        if($user!='' && $utilisateur->checkLogin($user)){
             $_SESSION['login']=$user;
             $errorlog="";
         } else {
@@ -35,7 +35,7 @@ require_once('../model/utilisateur.class.php');
         $user=$_POST['signin'];
         $nom=$_POST['nom'];
         $prenom=$_POST['prenom'];
-        if($utilisateur->creerLogin($user,$nom,$prenom)){
+        if($user!='' && $utilisateur->creerLogin($user,$nom,$prenom)){
             $_SESSION['login']=$user;
             $errorsign="";
         } else {

@@ -15,7 +15,7 @@ if (!isset($_SESSION)) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../view/design/style_classemen.css">
+    <link rel="stylesheet" href="../view/design/style_classeme.css">
     <link rel="icon" href="/view/images/moonFeederIcon.ico" >    
     <title>Isimon</title>
 </head>

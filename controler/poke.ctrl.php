@@ -17,13 +17,40 @@ require_once('../model/capture.class.php');
         $_SESSION['utilisateur']=$utilisateur;
     }
 
+
+    //vérification lors de l'autentification
+    if(isset($_POST['login'])){
+        $user=$_POST['login'];
+        if($user!='' && $utilisateur->checkLogin($user)){
+            $_SESSION['login']=$user;
+            $errorlog="";
+        } else {
+            $errorlog="Nom d'utilisateur inconnu";
+        }
+    }
+
+//vérification lors de l'inscription
+    if(isset($_POST['signin'])){
+        $user=$_POST['signin'];
+        $nom=$_POST['nom'];
+        $prenom=$_POST['prenom'];
+        if($user!='' && $utilisateur->creerLogin($user,$nom,$prenom)){
+            $_SESSION['login']=$user;
+            $errorsign="";
+        } else {
+            $errorsign="Il existe déjà un compte avec ce login";
+        }
+    }
+
     $info='';
     $image='';
     $nom ='';
     $desc = '';
     $type='';
+    $valPoke='';
     if(isset($_GET['poke'])){
         $poke=$_GET['poke'];
+        $valPoke='?poke='.$poke;
         $pokemon= new pokemon;
         $pokemon = $pokemon->recherchePoke($poke);
         if(empty($pokemon)){
@@ -93,9 +120,10 @@ require_once('../model/capture.class.php');
     $view->assign('info',$info);
     //vérifie l'existence de la session
     if(!$isSession){
+        $view->assign('valPoke', $valPoke);
         $view->assign('errorsign',$errorsign);
         $view->assign('errorlog',$errorlog);
-        $view->display("login.view.php");
+        $view->display("login.poke.view.php");
      }else{
         if(empty($pokemon)){
             $view->display('404.view.php');

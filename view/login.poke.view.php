@@ -4,6 +4,8 @@ if (!isset($_SESSION)) {
     session_start();
 }
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -13,8 +15,8 @@ if (!isset($_SESSION)) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../view/design/style_poke.css">
-    <link rel="icon" href="../images/pokeball.ico" >     
+    <link rel="stylesheet" href="../view/design/style_log.css">
+    <link rel="icon" href="../images/pokeball.ico" >    
     <title>Isimon</title>
 </head>
 
@@ -33,29 +35,41 @@ if (!isset($_SESSION)) {
                 </div>
             </div>
             <div class="sep"><div></div></div>
-            <div class="bouton "> <div>
-            <a href="../controler/main.ctrl.php" class="myButton">menu</a>
-            </div></div>
+            <div class="bouton "> <div></div></div>
     </div>
     </header>
     <div class="center">
         <div class="centerF">
             <div class="Cg"></div>
             <div class="Cc">
-            <img src="<?=$image?>" alt="<?=$image?>" >
-        
-            <div class="infoPoke">
-                <h3 class="nom">Nom: <?=$nom ?></h3>
-                <h3 class="type">Type: <?=$type ?></h3>
-            </div>
+            <form action="poke.ctrl.php<?=$valPoke?>" method="post">
+            <h2>Se connecter</h2>
+            <label for="log">Nom d'utilisateur</label>
+            <input type="text" name="login" id="log">
+            
+            <button type="submit"> Valider</button>
+            <h5><?=$errorlog?></h5>
+        </form>
 
-            <p><?=$desc ?></p>
+        <form action="poke.ctrl.php<?=$valPoke?>" method="post">
+            <h2>Inscrivez vous</h2>
+            <label for="sig">Nom d'utilisateur</label>
+            <input type="text" name="signin" id="sig">
+            <label for="log">Nom </label>
+            <input type="text" name="nom" id="log">
+            <label for="log">Prénom</label>
+            <input type="text" name="prenom" id="log">
+            <button type="submit"> Valider</button>
+        </form>
+
             </div>
             <div class="Cd"></div>
         </div>
 
     </div>
- 
+
+
+        
     <div class="end">
     <div></div>
     </div>
