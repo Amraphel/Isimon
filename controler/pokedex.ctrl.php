@@ -14,18 +14,7 @@ $view = new View();
 
 
 // Vérification que l'utilisateur est bien connecté
-if(isset($_SESSION['login'])){
-    $user=$_SESSION['login'];
-} else{
-    $loginerror='main.ctrl.php : utilisateur non connecté';
-}
-//vérification de l'existence de l'utilisateur
-if(isset($_SESSION['utilisateur'])){
-    $utilisateur=$_SESSION['utilisateur'];
-} else{
-    $utilisateur= new utilisateur;
-    $_SESSION['utilisateur']=$utilisateur;
-}
+
 
 
 //vérification lors de l'autentification
@@ -38,11 +27,29 @@ if(isset($_POST['login'])){
         $errorlog="Nom d'utilisateur inconnu";
     }
 }
+
+if(isset($_POST['signin'])){
+    $user=$_POST['signin'];
+    $nom=$_POST['nom'];
+    $prenom=$_POST['prenom'];
+    if($user!='' && $utilisateur->creerLogin($user,$nom,$prenom)){
+        $_SESSION['login']=$user;
+        $errorsign="";
+    } else {
+        $errorsign="Il existe déjà un compte avec ce login";
+    }
+}
 //Si l'utililisateur n'est pas connecté, il est ramené à la page de connexion
 if(isset($loginerror)){
     $view->display("login.pokedex.view.php");
 }
 
+
+if(isset($_SESSION['login'])){
+    $user=$_SESSION['login'];
+} else{
+    $loginerror='main.ctrl.php : utilisateur non connecté';
+}
 
 $pokemon = new pokemon;
 $listPoke = $pokemon->getAllPoke($user);
