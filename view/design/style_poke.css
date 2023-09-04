@@ -3,7 +3,7 @@ body {
 }
 
 .rondB {
-  height: 20vh;
+  height: 20vw;
   width: 20vw;
 
   
@@ -164,8 +164,9 @@ header {
     animation: myAnim 1s ease 0s 1 normal forwards;
   }
 
-
-
+h3 {
+  font-size: 2vh;
+}
 
   p {
     width: 70%;
